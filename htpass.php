@@ -340,7 +340,6 @@ if ( isset( $_GET['reinit'] ) ) {
                 <p> Une protection htpasswd est déjà en place sur votre site. Vous pouvez réinitialiser en supprimant la protection actuelle</p>
                 <p>Avant de tout supprimez, assurez vous de ne pas faire d'erreur</p>
                 <a href="<?php echo $base_url . '?reinit'; ?>" onclick="confirm('Etes-vous bien certain de ce que vous fiates ?')">Réinitialiser</a>
-                </p>
             </div>
 		<?php else: ?>
             <form method="post" action="<?php echo $base_url; ?>">
